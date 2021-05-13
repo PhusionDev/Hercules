@@ -149,6 +149,8 @@ the end of this file).
   6. Enter the Hercules directory and configure/build Hercules
       - `./configure`
       - `make clean && make sql` (on FreeBSD, replace `make` with `gmake`)
+      - (Max OS X with MariaDB):
+          - `./configure --with-mysql=/usr/local/bin/mariadb_config`
   7. Start the three servers login-server, char-server, map-server.
 
 ## Troubleshooting
